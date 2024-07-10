@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+.HeaderContainer{
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+}
+
+
+.Header{
+    font-size: 18px;
+    width: 1000px;
+    display: flex;
+    color: #E5E7EB;
+    justify-content: space-between;
+}
+
+.Header p{
+    font-weight: bolder;
+}
+.Header ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    text-align: center;
+}

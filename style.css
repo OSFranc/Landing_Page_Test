@@ -33,7 +33,6 @@ body{
     display: flex;
     background-color: #1f2937;
     justify-content: center;
-    height: 300px;
     padding: 50px;
 }
 
@@ -102,7 +101,7 @@ body{
     justify-items: center;
     margin-left: auto;
     margin-right: auto;
-    width: 1000px;
+    gap: 75px;
     margin-top: 40px;
     margin-bottom: 80px;
     flex-wrap: wrap;
@@ -128,15 +127,17 @@ body{
 
 .quote{
 background-color: #E5E7EB;
-padding-left: 350px;
-padding-right: 350px;
-padding-top: 100px;
-padding-bottom: 75px;
+padding:  50px 20% 50px;
+
 }
 
 .callForActionContainer{
     display: flex;
-    padding:100px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    padding: 150px;
+
 }
 
 .callForAction{
@@ -144,13 +145,12 @@ padding-bottom: 75px;
     display: flex;
     justify-content: space-between;
     background-color: #3882F6;
-    margin-left: 100px;
-    margin-right: 100px;
     border-radius: 10px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-top: 25px;
     padding-bottom: 25px;
+
 }
 
 .callForAction p{
